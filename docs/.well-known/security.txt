@@ -1,0 +1,3 @@
+Contact: https://github.com/oluwajuwonade
+Policy: https://github.com/oluwajuwonade/oluwajuwonade/blob/main/.github/SECURITY.md
+Expires: 2027-09-27T23:59:59Z
