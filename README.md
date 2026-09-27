@@ -5,6 +5,7 @@
 I turn messy business, financial, and economic data into reproducible analysis, decision frameworks, models, dashboards, and automation workflows.
 
 **Portfolio:** https://oluwajuwonade.github.io  
+**Portfolio source:** https://github.com/oluwajuwonade/oluwajuwonade/tree/main/docs  
 **LinkedIn:** https://www.linkedin.com/in/oluwajuwonade  
 **Upwork:** https://www.upwork.com/freelancers/~01ae1602f502222784  
 **GitHub:** https://github.com/oluwajuwonade
@@ -76,7 +77,7 @@ A modular Python/SQLite/CLI system demonstrating workflow automation, persistenc
 
 # Analytical operating model
 
-```text
+```
 FRAME
   ↓
 INSPECT
