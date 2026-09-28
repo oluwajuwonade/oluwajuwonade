@@ -69,6 +69,14 @@ h3 { margin: 0 0 10px; font-size: 1.25rem; line-height: 1.2; }
 .project-card p { margin-top: 0; }
 .project-card .question { color: var(--text); }
 .project-card .question strong { color: var(--accent-strong); }
+.metric-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 10px 0 22px; }
+.metric-grid div { padding: 12px; background: rgba(143, 227, 207, .07); border: 1px solid rgba(143, 227, 207, .2); border-radius: 9px; }
+.metric-grid strong, .metric-grid span { display: block; }
+.metric-grid strong { font-size: 1.05rem; }
+.metric-grid span { margin-top: 2px; color: var(--muted); font-size: .72rem; }
+.evidence-figure { margin: 0 0 4px; }
+.evidence-figure img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
+.evidence-figure figcaption { margin-top: 8px; color: var(--muted); font-size: .75rem; }
 .card-footer { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-top: auto; padding-top: 22px; color: var(--muted); font-size: .78rem; }
 .card-footer a { color: var(--accent); font-weight: 800; white-space: nowrap; }
 .evidence-banner { display: flex; align-items: center; gap: 18px; margin-top: 22px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 12px; color: var(--muted); font-size: .86rem; }
@@ -119,6 +127,7 @@ footer a { color: var(--accent); }
   .project-card.featured { grid-column: span 1; }
   .project-meta, .card-footer { align-items: flex-start; flex-direction: column; }
   .project-meta .evidence { text-align: left; }
+  .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .evidence-banner { align-items: flex-start; flex-direction: column; gap: 8px; }
   footer { align-items: flex-start; flex-direction: column; padding-right: 20px; padding-left: 20px; }
 }
