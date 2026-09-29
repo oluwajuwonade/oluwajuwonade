@@ -129,7 +129,7 @@ Open to roles and projects across:
 
 # Selected links
 
-[Portfolio Website](https://oluwajuwonade.github.io) · [LinkedIn](https://www.linkedin.com/in/oluwajuwonade) · [Upwork](https://www.upwork.com/freelancers/~01ae1602f502222784) · [X](https://x.com/oluwajuwon_ade)
+[Portfolio Website](https://oluwajuwonade.vercel.app) · [LinkedIn](https://www.linkedin.com/in/oluwajuwonade) · [Upwork](https://www.upwork.com/freelancers/~01ae1602f502222784) · [X](https://x.com/oluwajuwon_ade)
 
 **Oluwajuwon Adediji**  
 Data & Quantitative Analyst | Decision Intelligence | AI-Powered Analytics
