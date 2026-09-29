@@ -17,21 +17,22 @@
 <section class="case-panel"><h2>Model structure</h2><p><strong>Fact:</strong> monthly retail sales grain.</p><p><strong>Dimensions:</strong> product/category, region, customer segment, acquisition channel, time.</p><p><strong>KPI layer:</strong> revenue, units, ASP, profit, margin, discount.</p><p><strong>Diagnostic layer:</strong> H1/H2 comparison, dimensional drivers, anomaly queue.</p></section>
 <section class="case-panel"><h2>Example SQL</h2><pre class="sql-block">WITH period AS (
   SELECT
-    CASE WHEN month_num &lt;= 6 THEN 'H1' ELSE 'H2' END AS half,
+    CASE WHEN EXTRACT(MONTH FROM sale_date) &lt;= 6 THEN 'H1' ELSE 'H2' END AS half,
     revenue,
-    units_sold,
+    units,
     profit,
-    discount
-  FROM retail_sales_cleaned
+    discount_sum,
+    row_count
+  FROM retail_kpi_monthly
 )
 SELECT
   half,
   SUM(revenue) AS revenue,
-  SUM(units_sold) AS units,
-  SUM(revenue) / NULLIF(SUM(units_sold),0) AS asp,
+  SUM(units) AS units,
+  SUM(revenue) / NULLIF(SUM(units),0) AS asp,
   SUM(profit) AS profit,
   SUM(profit) / NULLIF(SUM(revenue),0) AS margin,
-  AVG(discount) AS avg_discount
+  SUM(discount_sum) / NULLIF(SUM(row_count),0) AS avg_discount
 FROM period
 GROUP BY half
 ORDER BY half;</pre></section>
