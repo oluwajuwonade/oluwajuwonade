@@ -28,14 +28,14 @@ The AI-Powered Retail Sales Diagnostic is the dominant portfolio example. It pre
 ### 02. Browser-first case studies
 Major projects have case-study pages so recruiters and clients can understand the problem, evidence, method, and limits before opening a repository.
 
-### 03. Technical appendix
+### 03. Applied public-data proof
+A Nigeria Development Data Monitor uses official World Bank indicators to demonstrate applied sourcing and economics-oriented analysis outside synthetic datasets.
+
+### 04. Technical appendix
 GitHub repositories provide source code, data-generation logic, tests, outputs, SQL, and reproducibility evidence.
 
-### 04. BI / SQL proof
+### 05. BI / SQL proof
 The retail diagnostic includes a SQL analytical layer and Power BI-ready model specification. The site labels the static dashboard artifact honestly and does not claim a published Power BI Service deployment.
-
-### 05. Applied public-data proof
-A Nigeria Development Data Monitor uses official World Bank indicators to demonstrate applied sourcing and economics-oriented analysis outside synthetic datasets.
 
 ### 06. CV
 Primary professional identity: **Data & Quantitative Analyst**. AI evaluation is a specialization, not a competing identity.
@@ -44,12 +44,12 @@ Primary professional identity: **Data & Quantitative Analyst**. AI evaluation is
 
 1. AI-Powered Retail Sales Diagnostic
 2. Retail SQL & BI Analytics Layer
-3. Credit Risk Analytics & FICO Segmentation
-4. Financial Planning & Scenario Modelling
-5. Pricing, Unit Economics & ROI Engine
-6. Data Quality & Analytics Assurance
-7. AI Research & Evaluation Framework
-8. Nigeria Development Data Monitor
+3. Nigeria Development Data Monitor
+4. Credit Risk Analytics & FICO Segmentation
+5. Financial Planning & Scenario Modelling
+6. Pricing, Unit Economics & ROI Engine
+7. Data Quality & Analytics Assurance
+8. AI Research & Evaluation Framework
 
 ## Evidence standard
 
