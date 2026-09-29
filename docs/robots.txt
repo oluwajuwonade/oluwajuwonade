@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://oluwajuwonade.github.io/sitemap.xml
+Sitemap: https://oluwajuwonade.vercel.app/sitemap.xml
