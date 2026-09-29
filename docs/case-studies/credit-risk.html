@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Case study: Credit Risk Analytics & FICO Segmentation.">
+<meta name="robots" content="index, follow"><meta name="theme-color" content="#0b0d10">
+<link rel="canonical" href="https://oluwajuwonade.vercel.app/case-studies/credit-risk.html">
+<title>From probability of default to usable risk bands | Oluwajuwon Adediji</title><link rel="stylesheet" href="../styles.css">
+</head><body>
+<header class="case-hero"><nav class="case-nav"><a class="back" href="../">← Back to portfolio</a></nav></header>
+<main class="case-main">
+<p class="case-kicker">QUANTITATIVE RISK</p><h1 class="case-title">From probability of default to usable risk bands</h1><p class="case-lede">A reproducible quantitative-risk case study combining logistic PD modelling with algorithmically structured FICO segmentation.</p>
+<div class="case-actions"><a class="button primary" href="https://github.com/oluwajuwonade/credit-risk-fico-segmentation">Open technical evidence ↗</a></div>
+<div class="case-grid">
+
+<section class="case-panel case-wide"><div class="stat-grid"><div class="stat"><strong>50,000</strong><span>Synthetic borrowers</span></div><div class="stat"><strong>13.3%</strong><span>Overall default rate</span></div><div class="stat"><strong>0.70</strong><span>Test AUC</span></div><div class="stat"><strong>8</strong><span>FICO rating buckets</span></div></div></section>
+<section class="case-panel"><h2>Problem</h2><p>Borrower-level risk models are useful only when their outputs can be evaluated and translated into interpretable segments. This project estimates probability of default and then converts the FICO distribution into statistically structured rating bands.</p><h3>Workflow</h3><p>Synthetic data → feature inspection → train/test split → logistic PD model → model evaluation → dynamic FICO bucketing → rating validation.</p></section>
+<section class="case-panel"><h2>Method</h2><p>The PD model uses FICO score, debt-to-income, credit lines, and employment tenure in a logistic-regression specification.</p><p>FICO boundaries are selected with dynamic programming rather than naive equal-width or equal-frequency bins. Candidate segments are evaluated with log-likelihood subject to a minimum bucket size.</p></section>
+<section class="case-panel"><h2>Validation</h2><ul><li>Model performance evaluation.</li><li>Monotonicity verification.</li><li>Seeded synthetic-data generation.</li><li>Unit tests for the bucketing algorithm.</li><li>Explicit model and deployment limitations.</li></ul><div class="note">The reported AUC and default rate describe the synthetic data-generating process. They are not claims about any real credit portfolio.</div></section>
+<section class="case-panel case-wide"><h2>Production gap</h2><p>Real deployment would require calibration analysis, out-of-time validation, stability monitoring, broader feature sets, model comparison, governance documentation, and business-specific rating policy.</p><a class="button secondary" href="https://github.com/oluwajuwonade/credit-risk-fico-segmentation/blob/main/README.md">Read technical README ↗</a></section>
+</div>
+</main>
+<footer><span>© Oluwajuwon Adediji</span><span>Data &amp; Quantitative Analyst · Evidence-led decision support</span><a href="../">Portfolio ↗</a></footer>
+</body></html>
