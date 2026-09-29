@@ -4,10 +4,10 @@
 
 I turn messy business, financial, and economic data into reproducible analysis, decision frameworks, models, dashboards, and automation workflows.
 
-**Portfolio:** https://oluwajuwonade.github.io  
+**Portfolio:** https://oluwajuwonade.vercel.app  
 **Portfolio source:** https://github.com/oluwajuwonade/oluwajuwonade/tree/main/docs  
 **LinkedIn:** https://www.linkedin.com/in/oluwajuwonade  
-**Upwork:** https://www.upwork.com/freelancers/~01ae1602f502222784  
+**Contra:** https://contra.com/oluwajuwonade  
 **GitHub:** https://github.com/oluwajuwonade
 
 ---
@@ -133,3 +133,14 @@ Open to roles and projects across:
 
 **Oluwajuwon Adediji**  
 Data & Quantitative Analyst | Decision Intelligence | AI-Powered Analytics
+
+
+## Decision-question standard
+
+Each portfolio case study is framed around a concrete decision question, followed by the analytical workflow, evidence, and a clear statement of limitations. Synthetic or illustrative results are labelled as such and are not presented as client outcomes.
+
+### Example decision questions
+
+- Why can revenue fall while units sold increase?
+- What assumptions drive the largest change in profit, cash generation, or ROI?
+- Can a KPI or dashboard be trusted before it reaches a decision-maker?
