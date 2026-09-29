@@ -1,8 +1,8 @@
 # Oluwajuwon Adediji
 
-### Data & Quantitative Analyst | Decision Intelligence | AI-Powered Analytics
+### Data & Quantitative Analyst
 
-I turn messy business, financial, and economic data into reproducible analysis, decision frameworks, models, dashboards, and automation workflows.
+I turn messy business, financial, and economic data into validated analysis, quantitative models, BI evidence, and decision-ready recommendations.
 
 **Portfolio:** https://oluwajuwonade.vercel.app  
 **Portfolio source:** https://github.com/oluwajuwonade/oluwajuwonade/tree/main/docs  
@@ -12,33 +12,37 @@ I turn messy business, financial, and economic data into reproducible analysis, 
 
 ---
 
-## Professional focus
+## Professional positioning
 
-**Business & BI Analytics** — KPI analysis, diagnostics, segmentation, reporting
+**Primary identity:** Data & Quantitative Analyst
 
-**Quantitative Analytics** — statistical modelling, risk, forecasting, scenario analysis
+**Core scope:** Business Analytics · Business Intelligence / SQL · Quantitative Analysis · Financial Analytics · Economics / Research
 
-**Finance & Economics** — financial modelling, FP&A-style analysis, market and economic research
+**Specialization:** AI Evaluation & Research Operations
 
-**AI Evaluation & Research Operations** — structured research, evaluation, quality control, workflow automation
+AI is used as an analytical workflow multiplier—research acceleration, structured evaluation, evidence checking, QA, and automation—not as a competing professional identity.
 
 ---
 
-# Featured portfolio
+# Portfolio evidence hierarchy
 
-## 01 — Business Decision Analytics
+## 01 — Flagship decision analytics
 
 ### [AI-Powered Retail Sales Diagnostic](https://github.com/oluwajuwonade/AI-Powered-Retail-Sales-Diagnostic)
-**Flagship case study**
 
-Diagnoses why revenue can fall while units sold increase, moving from data quality and KPI construction through decomposition, segmentation, anomaly detection, and business recommendations.
+**Decision question:** Why can revenue fall while units sold increase?
 
-### [Pricing, Unit Economics & ROI Decision Engine](https://github.com/oluwajuwonade/pricing-roi-analytics-engine)
-Commercial decision support covering pricing, contribution margin, break-even, ROI, and sensitivity analysis.
+A reproducible retail diagnostic moving from intentional data-quality defects through KPI construction, price-volume decomposition, segmentation, anomaly detection, executive diagnosis, and recommendations.
 
----
+**Browser-first case study:** https://oluwajuwonade.vercel.app/case-studies/retail-sales-diagnostic.html
 
-## 02 — Financial & Risk Analytics
+## 02 — BI / SQL extension
+
+### Retail SQL & BI Analytics Layer
+
+Validated SQL views, KPI definitions, management comparisons, dimensional reporting, reconciliation checks, and a Power BI build specification extending the retail case.
+
+## 03 — Quantitative & financial analytics
 
 ### [Credit Risk Analytics & FICO Segmentation](https://github.com/oluwajuwonade/credit-risk-fico-segmentation)
 Probability-of-default modelling and algorithmic FICO segmentation using reproducible synthetic data.
@@ -46,36 +50,25 @@ Probability-of-default modelling and algorithmic FICO segmentation using reprodu
 ### [Financial Planning & Scenario Modelling System](https://github.com/oluwajuwonade/financial-modelling-starter-system)
 Forecasting, scenario management, sensitivity analysis, and model QA for FP&A-style decisions.
 
----
+### [Pricing, Unit Economics & ROI Decision Engine](https://github.com/oluwajuwonade/pricing-roi-analytics-engine)
+Commercial decision support covering pricing, contribution margin, break-even, ROI, and sensitivity analysis.
 
-## 03 — Data Quality & Analytics Infrastructure
+## 04 — Analytical quality & AI specialization
 
 ### [Data Quality & Analytics Assurance Framework](https://github.com/oluwajuwonade/data-quality-audit-toolkit)
 Reusable controls for schema, missingness, duplicates, business rules, referential integrity, and KPI reconciliation.
 
-### [Business Metrics & KPI Engine](https://github.com/oluwajuwonade/business-kpi-calculator)
-Standardized KPI definitions, calculation logic, input validation, trend reporting, and interpretation.
-
----
-
-## 04 — AI-Powered Analytics & Research
-
 ### [AI Research & Evaluation Framework](https://github.com/oluwajuwonade/ai-research-evaluation-system)
 Measures accuracy, completeness, traceability, consistency, latency, cost, and failure patterns in AI-assisted research workflows.
 
-### [AI-Native Data Analyst Operating System](https://github.com/oluwajuwonade/ai-powered-data-analyst-toolkit)
-Reusable analyst workflows combining data analysis, AI acceleration, reporting templates, and explicit human-control boundaries.
+## 05 — Applied public-data evidence
+
+### Nigeria Development Data Monitor
+Uses official World Bank indicators to demonstrate real-data sourcing and economics-oriented analysis outside synthetic datasets.
 
 ---
 
-## 05 — Automation & Systems
-
-### [Productivity Systems Automation Engine](https://github.com/oluwajuwonade/productivity-secret-codes)
-A modular Python/SQLite/CLI system demonstrating workflow automation, persistence, and reusable software architecture.
-
----
-
-# Analytical operating model
+## Analytical operating model
 
 ```
 FRAME
@@ -97,50 +90,27 @@ I separate observed facts from assumptions, correlation from causation, model ou
 
 ---
 
-# Core toolkit
+## Evidence standard
 
-Python · SQL · pandas · NumPy · Excel · Jupyter · Plotly · Git/GitHub · statistical analysis · financial modelling · AI evaluation · research automation
-
----
-
-# What the portfolio demonstrates
-
-| Capability | Evidence |
-|---|---|
-| Business analytics | Retail Sales Diagnostic |
-| BI / KPI analytics | Business Metrics & KPI Engine |
-| Quantitative modelling | Credit Risk Segmentation |
-| Financial modelling | Financial Planning & Scenario Modelling |
-| Commercial analytics | Pricing & ROI Engine |
-| Data quality | Analytics Assurance Framework |
-| AI evaluation | AI Research & Evaluation Framework |
-| AI-native workflows | Data Analyst Operating System |
-| Automation engineering | Productivity Systems Automation Engine |
+- **Synthetic** = method demonstration. Metrics describe the synthetic data-generating process.
+- **Public data** = sourced applied evidence with documented provenance.
+- **Client impact** = stated only where directly observed and documented.
+- **AI evaluation** = specialization supporting analytical quality, research reliability, and workflow efficiency.
 
 ---
 
-# Professional direction
+## Core toolkit
 
-Open to roles and projects across:
-
-**Data Analytics · Business Intelligence · Quantitative Analysis · Financial / FP&A Analytics · Risk Analytics · AI Evaluation · Research Operations · Analytics Automation**
+Python · SQL · pandas · NumPy · Excel · Jupyter · Plotly · Git/GitHub · statistical analysis · financial modelling · Power BI modelling concepts · AI evaluation · research automation
 
 ---
 
-# Selected links
+## Target roles
 
-[Portfolio Website](https://oluwajuwonade.vercel.app) · [LinkedIn](https://www.linkedin.com/in/oluwajuwonade) · [Upwork](https://www.upwork.com/freelancers/~01ae1602f502222784) · [X](https://x.com/oluwajuwon_ade)
+Data Analyst · BI Analyst · Quantitative Analyst · Financial / FP&A Analyst · Risk Analytics · Business & Market Research · AI Evaluation / Research Operations
 
-**Oluwajuwon Adediji**  
-Data & Quantitative Analyst | Decision Intelligence | AI-Powered Analytics
+---
 
+## Selected links
 
-## Decision-question standard
-
-Each portfolio case study is framed around a concrete decision question, followed by the analytical workflow, evidence, and a clear statement of limitations. Synthetic or illustrative results are labelled as such and are not presented as client outcomes.
-
-### Example decision questions
-
-- Why can revenue fall while units sold increase?
-- What assumptions drive the largest change in profit, cash generation, or ROI?
-- Can a KPI or dashboard be trusted before it reaches a decision-maker?
+[Portfolio Website](https://oluwajuwonade.vercel.app) · [LinkedIn](https://www.linkedin.com/in/oluwajuwonade) · [Upwork](https://www.upwork.com/freelancers/~01ae1602f502222784) · [Contra](https://contra.com/oluwajuwonade)
