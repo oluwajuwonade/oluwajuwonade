@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Case study: AI-Powered Retail Sales Diagnostic by Oluwajuwon Adediji.">
+<meta name="robots" content="index, follow"><meta name="theme-color" content="#0b0d10">
+<link rel="canonical" href="https://oluwajuwonade.vercel.app/case-studies/retail-sales-diagnostic.html">
+<title>Why revenue fell while units rose | Oluwajuwon Adediji</title><link rel="stylesheet" href="../styles.css">
+</head><body>
+<header class="case-hero"><nav class="case-nav"><a class="back" href="../">← Back to portfolio</a></nav></header>
+<main class="case-main">
+<p class="case-kicker">FLAGSHIP · BUSINESS DECISION ANALYTICS</p><h1 class="case-title">Why revenue fell while units rose</h1><p class="case-lede">A reproducible retail diagnostic showing how data quality, KPI design, price-volume decomposition, segmentation, anomaly triage, and decision framing turn an apparently contradictory sales story into a defensible business diagnosis.</p>
+<div class="case-actions"><a class="button primary" href="https://github.com/oluwajuwonade/AI-Powered-Retail-Sales-Diagnostic">Open technical evidence ↗</a><a class="button secondary" href="../assets/retail-bi-evidence.png">Open BI evidence ↗</a></div>
+<div class="case-grid">
+
+<section class="case-panel case-wide"><div class="stat-grid">
+<div class="stat"><strong>−14.8%</strong><span>Revenue H1→H2</span></div><div class="stat"><strong>+48.3%</strong><span>Units H1→H2</span></div><div class="stat"><strong>−33.1%</strong><span>ASP H1→H2</span></div><div class="stat"><strong>−23.4%</strong><span>Profit H1→H2</span></div></div></section>
+<section class="case-panel"><h2>Executive diagnosis</h2><p>Revenue declined despite higher unit volume because the synthetic business sold more low-value units at lower realized prices. H2 units were 48.3% higher than H1, while revenue was 14.8% lower. ASP fell 33.1%, average discount rose 159.5%, profit fell 23.4%, and average margin declined 7.5%.</p><p>The defensible mechanism is value dilution: mix shifted toward lower-value products while discounting increased. Paid acquisition also showed weaker economics. These are associations in the synthetic data, not causal attribution.</p><div class="note">Decision implication: volume alone is an incomplete success metric. Pair units with realized price, mix, discount, contribution margin, and channel economics.</div></section>
+<section class="case-panel"><h2>Investigation design</h2><ol><li>Profile and repair an intentionally imperfect raw dataset.</li><li>Build a KPI layer and compare H1 vs H2.</li><li>Decompose product revenue change into volume, price, and interaction effects.</li><li>Compare product, category, region, segment, and acquisition-channel performance.</li><li>Flag anomalies and separate observed facts from interpretation.</li><li>Translate evidence into recommendations and a monitoring dashboard narrative.</li></ol><h3>Data grain</h3><p>4,611 rows across 12 months, 8 products, 4 categories, 4 regions, 3 customer segments, and 4 channels.</p></section>
+<section class="case-panel case-wide"><h2>Key evidence</h2><table class="data-table"><thead><tr><th>KPI</th><th>H1</th><th>H2</th><th>Change</th></tr></thead><tbody>
+<tr><td>Revenue</td><td>$5.86m</td><td>$4.99m</td><td>−14.8%</td></tr><tr><td>Units</td><td>96,230</td><td>142,680</td><td>+48.3%</td></tr><tr><td>ASP</td><td>$91.02</td><td>$60.86</td><td>−33.1%</td></tr><tr><td>Profit</td><td>$2.77m</td><td>$2.12m</td><td>−23.4%</td></tr><tr><td>Average margin</td><td>46.7%</td><td>43.2%</td><td>−7.5%</td></tr><tr><td>Average discount</td><td>10.1%</td><td>26.2%</td><td>+159.5%</td></tr>
+</tbody></table></section>
+<section class="case-panel"><h2>Where the pressure concentrated</h2><ul><li>Premium Audio revenue: −35.7%.</li><li>Pro Camera revenue: −34.7%.</li><li>Electronics revenue: −35.0%.</li><li>Essentials revenue: +21.2%.</li><li>Paid Social revenue: −16.6%; margin change: −7.8%.</li><li>West had the largest regional revenue decline at −16.4%.</li></ul></section>
+<section class="case-panel"><h2>Decision actions</h2><ol><li>Set margin floors for paid-acquisition promotions.</li><li>Shift blanket discounts toward bundles and trade-up paths.</li><li>Protect high-value product availability and merchandising.</li><li>Track units, ASP, discount, contribution margin, product mix, and channel mix together.</li><li>Run controlled discount/channel tests before scaling spend.</li></ol></section>
+<section class="case-panel case-wide"><h2>Data quality and causal limits</h2><p>The raw file contains intentionally introduced defects such as duplicates, missing keys, inconsistent labels, invalid dates, impossible discounts, zero units, negative revenue, cost anomalies, an outlier, and a broken profit identity. The pipeline documents each treatment.</p><p>Because the data is synthetic and observational, the project does not establish causality. Controlled experiments, inventory context, media spend, conversion data, and stable segment definitions would be required for causal attribution.</p><div class="actions"><a class="button secondary" href="https://github.com/oluwajuwonade/AI-Powered-Retail-Sales-Diagnostic/blob/main/outputs/AI_Powered_Retail_Sales_Diagnostic_Report.md">Read full report ↗</a><a class="button secondary" href="../case-studies/sql-bi-retail-analytics.html">See SQL + BI layer ↗</a></div></section>
+</div>
+</main>
+<footer><span>© Oluwajuwon Adediji</span><span>Data &amp; Quantitative Analyst · Evidence-led decision support</span><a href="../">Portfolio ↗</a></footer>
+</body></html>
