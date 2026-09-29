@@ -1,66 +1,52 @@
 # Portfolio Architecture
 
-## Positioning
+## Primary positioning
 
 **Data & Quantitative Analyst | Decision Intelligence | AI-Powered Analytics**
 
 The portfolio is organized around the ability to move from raw information to a validated business decision.
 
-## Capability pillars
+## Portfolio layers
 
-### 01. Business & Decision Analytics
-- AI-Powered Retail Sales Diagnostic
-- Pricing, Unit Economics & ROI Decision Engine
+### 01. Browser-first case studies
+Each flagship project now has a case-study page containing:
+- business problem
+- analytical questions
+- method
+- quantified evidence
+- decision implications
+- limitations
+- direct technical evidence
 
-### 02. Financial & Risk Analytics
-- Credit Risk Analytics & FICO Segmentation
-- Financial Planning & Scenario Modelling System
+### 02. Technical appendix
+GitHub repositories provide source code, data, tests, generated outputs, and reproducibility.
 
-### 03. Data Quality & Analytics Infrastructure
-- Data Quality & Analytics Assurance Framework
-- Business Metrics & KPI Engine
+### 03. BI / SQL proof
+The retail diagnostic now has a SQL analytical layer and Power BI-ready model specification. The site labels the static dashboard artifact honestly; it does not claim a published Power BI Service deployment.
 
-### 04. AI-Powered Analytics & Research
-- AI Research & Evaluation Framework
-- AI-Native Data Analyst Operating System
+### 04. Applied public-data proof
+A Nigeria Development Data Monitor uses current World Bank public indicators to demonstrate real-data sourcing and economics-oriented analysis outside synthetic datasets.
 
-### 05. Automation & Systems
-- Productivity Systems Automation Engine
+### 05. CV
+Primary professional identity: **Data & Quantitative Analyst**. AI evaluation is a specialist capability, not a competing identity.
 
-## Portfolio evidence standard
-
-Every flagship project should communicate:
-
-1. Business problem
-2. Analytical questions
-3. Dataset and provenance
-4. Methodology
-5. Results / outputs
-6. Validation and QA
-7. Decision implications
-8. Limitations
-9. Reproducibility
-
-## Featured-project order
+## Featured work
 
 1. AI-Powered Retail Sales Diagnostic
-2. Credit Risk Analytics & FICO Segmentation
-3. Financial Planning & Scenario Modelling
-4. Pricing, Unit Economics & ROI Decision Engine
-5. Data Quality & Analytics Assurance
-6. AI Research & Evaluation Framework
+2. Retail SQL & BI Analytics Layer
+3. Credit Risk Analytics & FICO Segmentation
+4. Financial Planning & Scenario Modelling
+5. Pricing, Unit Economics & ROI Engine
+6. Data Quality & Analytics Assurance
+7. AI Research & Evaluation Framework
+8. Nigeria Development Data Monitor
 
-## Operating principle
+## Evidence standard
 
+Claims should be proportional to the evidence:
+- synthetic = method demonstration
+- public data = sourced applied evidence
+- client impact = only claimed when directly evidenced
+
+Operating principle:
 **Frame → Inspect → Validate → Analyse → Explain → Recommend → Document**
-
-Observed facts, assumptions, interpretations, and recommendations should remain distinguishable.
-
-## Site source
-
-The static portfolio source is in the docs directory:
-
-- docs/index.html
-- docs/styles.css
-
-The page can be published through GitHub Pages once Pages is configured for the repository.
