@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SQL + BI case study extending the retail sales diagnostic.">
+<meta name="robots" content="index, follow"><meta name="theme-color" content="#0b0d10">
+<link rel="canonical" href="https://oluwajuwonade.vercel.app/case-studies/sql-bi-retail-analytics.html">
+<title>Build a reliable SQL-backed BI layer | Oluwajuwon Adediji</title><link rel="stylesheet" href="../styles.css">
+</head><body>
+<header class="case-hero"><nav class="case-nav"><a class="back" href="../">← Back to portfolio</a></nav></header>
+<main class="case-main">
+<p class="case-kicker">NEW · SQL + BI CASE STUDY</p><h1 class="case-title">Build a reliable SQL-backed BI layer</h1><p class="case-lede">A practical reporting layer built around the flagship retail diagnostic: defined KPIs, analytical SQL, dimensional views, validation checks, and a Power BI-ready model specification.</p>
+<div class="case-actions"><a class="button primary" href="../sql-bi/retail_diagnostic.sql">Open technical evidence ↗</a><a class="button secondary" href="https://github.com/oluwajuwonade/AI-Powered-Retail-Sales-Diagnostic" rel="external">Source dataset ↗</a></div>
+<div class="case-grid">
+
+<section class="case-panel case-wide"><div class="stat-grid"><div class="stat"><strong>6</strong><span>Core KPI measures</span></div><div class="stat"><strong>4</strong><span>Business dimensions</span></div><div class="stat"><strong>2</strong><span>Period comparison views</span></div><div class="stat"><strong>QA</strong><span>Reconciliation layer</span></div></div></section>
+<section class="case-panel"><h2>Business purpose</h2><p>The retail project already demonstrates Python-based diagnostics. This extension answers the BI question: how should the same evidence be exposed to a reporting user through a reusable analytical layer?</p><p>The design separates raw/clean facts, dimensions, KPI views, and validation queries so Power BI or another BI client can consume stable outputs.</p></section>
+<section class="case-panel"><h2>Model structure</h2><p><strong>Fact:</strong> monthly retail sales grain.</p><p><strong>Dimensions:</strong> product/category, region, customer segment, acquisition channel, time.</p><p><strong>KPI layer:</strong> revenue, units, ASP, profit, margin, discount.</p><p><strong>Diagnostic layer:</strong> H1/H2 comparison, dimensional drivers, anomaly queue.</p></section>
+<section class="case-panel"><h2>Example SQL</h2><pre class="sql-block">WITH period AS (
+  SELECT
+    CASE WHEN month_num &lt;= 6 THEN 'H1' ELSE 'H2' END AS half,
+    revenue,
+    units_sold,
+    profit,
+    discount
+  FROM retail_sales_cleaned
+)
+SELECT
+  half,
+  SUM(revenue) AS revenue,
+  SUM(units_sold) AS units,
+  SUM(revenue) / NULLIF(SUM(units_sold),0) AS asp,
+  SUM(profit) AS profit,
+  SUM(profit) / NULLIF(SUM(revenue),0) AS margin,
+  AVG(discount) AS avg_discount
+FROM period
+GROUP BY half
+ORDER BY half;</pre></section>
+<section class="case-panel"><h2>BI page design</h2><div class="sql-dashboard">
+<div class="dash-card"><strong>$4.99m</strong><span>H2 revenue</span></div><div class="dash-card"><strong>142.7k</strong><span>H2 units</span></div><div class="dash-card"><strong>$60.86</strong><span>H2 ASP</span></div><div class="dash-card"><strong>$2.12m</strong><span>H2 profit</span></div><div class="dash-card"><strong>43.2%</strong><span>H2 margin</span></div><div class="dash-card"><strong>26.2%</strong><span>H2 discount</span></div>
+</div></section>
+<section class="case-panel case-wide"><h2>Power BI build specification</h2><ol><li>Load the cleaned fact table and create conformed dimensions.</li><li>Define explicit measures for Revenue, Units, ASP, Profit, Margin, and Discount.</li><li>Build an H1/H2 comparison page with KPI cards and variance indicators.</li><li>Add product, region, segment, and channel drill-downs.</li><li>Use the revenue bridge and anomaly queue as diagnostic pages.</li><li>Reconcile every headline KPI back to the validated source totals.</li></ol><div class="note">This portfolio page is a Power BI-ready specification and static BI proof artifact. It does not claim a published Power BI Service report or a client deployment.</div></section>
+</div>
+</main>
+<footer><span>© Oluwajuwon Adediji</span><span>Data &amp; Quantitative Analyst · Evidence-led decision support</span><a href="../">Portfolio ↗</a></footer>
+</body></html>
