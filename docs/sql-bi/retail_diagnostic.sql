@@ -1,6 +1,6 @@
 -- Retail Sales Diagnostic: SQL + BI analytical layer
 -- Source: oluwajuwonade/AI-Powered-Retail-Sales-Diagnostic
--- Dialect: DuckDB/SQLite-style analytical SQL
+-- Dialect: DuckDB-compatible analytical SQL
 -- Purpose: expose validated retail metrics to a BI layer.
 --
 -- Expected source columns include:
@@ -11,7 +11,7 @@
 CREATE VIEW retail_kpi_monthly AS
 SELECT
   CAST(Date AS DATE) AS sale_date,
-  strftime('%Y-%m', CAST(Date AS DATE)) AS month,
+  strftime(CAST(Date AS DATE), '%Y-%m') AS month,
   Product AS product,
   Category AS category,
   Region AS region,
@@ -21,6 +21,8 @@ SELECT
   SUM(Revenue) AS revenue,
   SUM(Cost) AS cost,
   SUM(Profit) AS profit,
+  SUM(Discount) AS discount_sum,
+  COUNT(*) AS row_count,
   AVG(Discount) AS avg_discount,
   SUM(Revenue) / NULLIF(SUM("Units Sold"), 0) AS asp,
   SUM(Profit) / NULLIF(SUM(Revenue), 0) AS margin
@@ -31,7 +33,7 @@ GROUP BY 1,2,3,4,5,6,7;
 WITH period AS (
   SELECT
     CASE WHEN EXTRACT(MONTH FROM sale_date) <= 6 THEN 'H1' ELSE 'H2' END AS half,
-    revenue, units, profit, avg_discount
+    revenue, units, profit, discount_sum, row_count
   FROM retail_kpi_monthly
 )
 SELECT
@@ -41,7 +43,7 @@ SELECT
   SUM(revenue) / NULLIF(SUM(units),0) AS asp,
   SUM(profit) AS profit,
   SUM(profit) / NULLIF(SUM(revenue),0) AS margin,
-  AVG(avg_discount) AS avg_discount
+  SUM(discount_sum) / NULLIF(SUM(row_count),0) AS avg_discount
 FROM period
 GROUP BY half
 ORDER BY half;
@@ -65,7 +67,7 @@ SELECT
   SUM(units) AS units,
   SUM(profit) AS profit,
   SUM(profit) / NULLIF(SUM(revenue),0) AS margin,
-  AVG(avg_discount) AS avg_discount
+  SUM(discount_sum) / NULLIF(SUM(row_count),0) AS avg_discount
 FROM retail_kpi_monthly
 GROUP BY acquisition_channel
 ORDER BY margin DESC;
@@ -84,4 +86,4 @@ FROM retail_kpi_monthly;
 -- ASP = DIVIDE([Revenue], [Units])
 -- Profit = SUM(retail_kpi_monthly[profit])
 -- Margin = DIVIDE([Profit], [Revenue])
--- Avg Discount = AVERAGE(retail_kpi_monthly[avg_discount])
+-- Avg Discount = DIVIDE(SUM(retail_kpi_monthly[discount_sum]), SUM(retail_kpi_monthly[row_count]))
