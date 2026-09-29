@@ -1,12 +1,11 @@
-# Oluwajuwon Adediji
-
-### Data & Quantitative Analyst
+# Oluwajuwon Adediji — Data & Quantitative Analyst
 
 I turn messy business, financial, and economic data into validated analysis, quantitative models, BI evidence, and decision-ready recommendations.
 
-**Portfolio:** https://oluwajuwonade.vercel.app  
-**Portfolio source:** https://github.com/oluwajuwonade/oluwajuwonade/tree/main/docs  
+**Live portfolio:** https://oluwajuwonade.vercel.app  
+**Portfolio source:** `docs/` in this repository  
 **LinkedIn:** https://www.linkedin.com/in/oluwajuwonade  
+**Upwork:** https://www.upwork.com/freelancers/~01ae1602f502222784  
 **Contra:** https://contra.com/oluwajuwonade  
 **GitHub:** https://github.com/oluwajuwonade
 
@@ -20,82 +19,67 @@ I turn messy business, financial, and economic data into validated analysis, qua
 
 **Specialization:** AI Evaluation & Research Operations
 
-AI is used as an analytical workflow multiplier—research acceleration, structured evaluation, evidence checking, QA, and automation—not as a competing professional identity.
+AI is used as a workflow multiplier for research acceleration, structured evaluation, evidence checking, QA, and automation. It is presented as a specialization within the analytical profile, not as a competing professional identity.
 
 ---
 
-# Portfolio evidence hierarchy
+## Evidence hierarchy
 
-## 01 — Flagship decision analytics
+### 01 — Flagship decision analytics
+**AI-Powered Retail Sales Diagnostic**  
+Decision question: **Why did revenue decline despite increasing sales volume?**
 
-### [AI-Powered Retail Sales Diagnostic](https://github.com/oluwajuwonade/AI-Powered-Retail-Sales-Diagnostic)
+Reproducible synthetic case spanning data-quality audit, KPI construction, price-volume decomposition, segmentation, anomaly triage, executive diagnosis, and recommendation design.
 
-**Decision question:** Why can revenue fall while units sold increase?
+Case study: https://oluwajuwonade.vercel.app/case-studies/retail-sales-diagnostic.html  
+Repository: https://github.com/oluwajuwonade/AI-Powered-Retail-Sales-Diagnostic
 
-A reproducible retail diagnostic moving from intentional data-quality defects through KPI construction, price-volume decomposition, segmentation, anomaly detection, executive diagnosis, and recommendations.
+### 02 — SQL + BI
+**Retail SQL & BI Analytics Layer**
 
-**Browser-first case study:** https://oluwajuwonade.vercel.app/case-studies/retail-sales-diagnostic.html
+Defined KPI measures, analytical SQL, dimensional comparisons, reconciliation checks, and a Power BI-ready model specification extending the flagship case.
 
-## 02 — BI / SQL extension
+Case study: https://oluwajuwonade.vercel.app/case-studies/sql-bi-retail-analytics.html  
+SQL artifact: https://oluwajuwonade.vercel.app/sql-bi/retail_diagnostic.sql
 
-### Retail SQL & BI Analytics Layer
+### 03 — Applied public-data evidence
+**Nigeria Development Data Monitor**
 
-Validated SQL views, KPI definitions, management comparisons, dimensional reporting, reconciliation checks, and a Power BI build specification extending the retail case.
+Official World Bank indicators are used to demonstrate real-data sourcing, provenance, metric definition, period handling, and economics-oriented communication outside synthetic datasets.
 
-## 03 — Quantitative & financial analytics
+Case study: https://oluwajuwonade.vercel.app/case-studies/nigeria-public-data.html
 
-### [Credit Risk Analytics & FICO Segmentation](https://github.com/oluwajuwonade/credit-risk-fico-segmentation)
-Probability-of-default modelling and algorithmic FICO segmentation using reproducible synthetic data.
+### 04–06 — Quantitative, financial & commercial analytics
+- Credit Risk Analytics & FICO Segmentation
+- Financial Planning & Scenario Modelling
+- Pricing, Unit Economics & ROI Decision Engine
 
-### [Financial Planning & Scenario Modelling System](https://github.com/oluwajuwonade/financial-modelling-starter-system)
-Forecasting, scenario management, sensitivity analysis, and model QA for FP&A-style decisions.
+### 07 — Analytics governance
+**Data Quality & Analytics Assurance**
 
-### [Pricing, Unit Economics & ROI Decision Engine](https://github.com/oluwajuwonade/pricing-roi-analytics-engine)
-Commercial decision support covering pricing, contribution margin, break-even, ROI, and sensitivity analysis.
-
-## 04 — Analytical quality & AI specialization
-
-### [Data Quality & Analytics Assurance Framework](https://github.com/oluwajuwonade/data-quality-audit-toolkit)
 Reusable controls for schema, missingness, duplicates, business rules, referential integrity, and KPI reconciliation.
 
-### [AI Research & Evaluation Framework](https://github.com/oluwajuwonade/ai-research-evaluation-system)
-Measures accuracy, completeness, traceability, consistency, latency, cost, and failure patterns in AI-assisted research workflows.
+### 08 — AI evaluation specialization
+**AI Research & Evaluation Framework**
 
-## 05 — Applied public-data evidence
-
-### Nigeria Development Data Monitor
-Uses official World Bank indicators to demonstrate real-data sourcing and economics-oriented analysis outside synthetic datasets.
+Evaluation of accuracy, completeness, traceability, consistency, latency, cost, and failure patterns in AI-assisted research workflows.
 
 ---
 
 ## Analytical operating model
 
-```
-FRAME
-  ↓
-INSPECT
-  ↓
-VALIDATE
-  ↓
-ANALYSE
-  ↓
-EXPLAIN
-  ↓
-RECOMMEND
-  ↓
-DOCUMENT
-```
+`Frame → Inspect → Validate → Analyse → Explain → Recommend`
 
-I separate observed facts from assumptions, correlation from causation, model output from interpretation, and illustrative scenarios from empirical evidence.
+The portfolio separates observed facts from assumptions, correlation from causation, model output from interpretation, and illustrative scenarios from empirical evidence.
 
 ---
 
 ## Evidence standard
 
-- **Synthetic** = method demonstration. Metrics describe the synthetic data-generating process.
-- **Public data** = sourced applied evidence with documented provenance.
+- **Synthetic** = method demonstration; metrics describe the synthetic data-generating process.
+- **Public data** = sourced applied evidence with documented provenance and explicit periods.
 - **Client impact** = stated only where directly observed and documented.
-- **AI evaluation** = specialization supporting analytical quality, research reliability, and workflow efficiency.
+- **AI evaluation** = a specialization supporting analytical quality and research reliability.
 
 ---
 
@@ -111,6 +95,16 @@ Data Analyst · BI Analyst · Quantitative Analyst · Financial / FP&A Analyst �
 
 ---
 
-## Selected links
+## Repository structure
 
-[Portfolio Website](https://oluwajuwonade.vercel.app) · [LinkedIn](https://www.linkedin.com/in/oluwajuwonade) · [Upwork](https://www.upwork.com/freelancers/~01ae1602f502222784) · [Contra](https://contra.com/oluwajuwonade)
+`docs/` is the browser-first portfolio layer deployed to Vercel. It contains the homepage, CV, case studies, assets, SQL proof, sitemap, and robots file.
+
+The linked project repositories contain deeper technical evidence, reproducible code, data-generation logic, tests, outputs, and methodological detail.
+
+GitHub is the technical appendix. The portfolio website is the decision-context and recruiter/client evaluation layer.
+
+---
+
+## Contact
+
+oluwajuwonade@outlook.com
