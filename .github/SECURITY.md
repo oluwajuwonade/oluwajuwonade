@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-This is a static GitHub Pages portfolio. If you identify a security issue in the site or repository, please report it privately through the repository owner’s GitHub profile:
+This repository contains a static portfolio published through Vercel. If you identify a security issue in the site or repository, please report it privately through the repository owner’s GitHub profile:
 
 https://github.com/oluwajuwonade
 
